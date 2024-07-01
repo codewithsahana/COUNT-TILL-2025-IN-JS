@@ -21,7 +21,7 @@ function updateCountdown() {
     "countdown"
   ).innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
 
-  setTimeout(updateCountdown, 1000);
+  setTimeout(updateCountdown, 1000); //for updating the dom
 }
 
 updateCountdown();
